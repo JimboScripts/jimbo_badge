@@ -18,12 +18,12 @@ AddEventHandler("jimbo_badge:takeOff", function()
     local ped = PlayerPedId()
     if IsPedMale(ped) then
         --male
-        Citizen.InvokeNative(0x0D7FFA1B2F69ED82, ped,  0x1FC12C9C, 0, 0)
+        Citizen.InvokeNative(0x0D7FFA1B2F69ED82, ped, 0x1FC12C9C, 0, 0)
         Citizen.InvokeNative(0xCC8CA3E88256E58F, ped, 0, 1, 1, 1, false)
         Citizen.Wait(1)
     else
         --female
-        Citizen.InvokeNative(0x0D7FFA1B2F69ED82, ped, 0xDB4C451D, 0, 0)
+        Citizen.InvokeNative(0x0D7FFA1B2F69ED82, ped, 0x929677D, 0, 0)
         Citizen.InvokeNative(0xCC8CA3E88256E58F, ped, 0, 1, 1, 1, false)
         Citizen.Wait(1)
     end 
