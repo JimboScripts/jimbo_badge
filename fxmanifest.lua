@@ -5,6 +5,10 @@ game 'rdr3'
 author 'Ap3x99 aka Jimbo'
 description 'a simple badge script for RedM servers using the VORP framework'
 
+shared_scripts {
+    'config.lua'
+}
+
 client_scripts {
     'client.lua'
 }
