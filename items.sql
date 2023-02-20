@@ -1,1 +1,3 @@
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('p_badge', 'Pinkerton Badge', 1, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('m_badge', 'Marshal Badge', 1, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('l_badge', 'Sheriff Badge', 1, 1, 'item_standard', 1);
