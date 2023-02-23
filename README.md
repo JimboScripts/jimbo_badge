@@ -1,10 +1,5 @@
 <h2 align="center">Badge Script for VORP servers</h2>
 
-## Table of Contents
-
-- [About](#about)
-- [Installation & Configuration](#installation)
-
 ## About
 
 This resource was made for my server so our Pinkertons could apply a badge to their outfit without it being a permanent addition & so they don't need to have a dedicated job. If your server doesn't have Pinkertons or you'd like to use the badge for something else, that works too. This resource uses client events so devs can use those for other script functions if you don't intend to use the badge item to apply or the command to remove.
