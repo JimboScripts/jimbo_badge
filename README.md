@@ -11,7 +11,7 @@ I've now added the ability for multiple badges to be made. I've included badge i
 Clone with Git or download manually
 
 ```bash
-$ git clone https://github.com/Ap3x99/jimbo_badge.git
+$ git clone https://github.com/JimboScripts/jimbo_badge.git
 ```
 
 Edit the `config.lua` to your liking or leave it default. If you change the item name, add the same name to match the `items.sql` file.
